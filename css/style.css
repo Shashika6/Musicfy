@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2019, 1:14:10 PM
+    Author     : ASUS
+*/
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: blue; 
+} 
+   
+ #frmBooking {
+ background-color: lightblue;
+}
+  
+
+      h3{
+           text-align:center;
+           
+                color:#62bb46;
+      }
+      
+       input[type=text] {
+
+  color: white;
+}
+      img{
+           display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+     
+      }
+    
+
+  
+
+    img {
+  border-radius: 50%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+    h3 {display: inline;
+    text-align:center;
+    
+       }
+       
+       h2 {
+           padding:10px
+       }  
+    #account {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 15px;
+    background-color: #c8c7c7;
+    box-shadow: 10px 10px 5px grey;
+      margin: 20px;
+      ::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+}
+
+.back{
+    background-color: lightblue;
+}
+::placeholder {
+  color: blue;
+  opacity: 1; /* Firefox */
+}
+
+
+    img {
+  border-radius: 50%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+    h3 {display: inline;
+    text-align:center;
+    
+       }
+       
+       h2 {
+           padding:10px
+       }  
+    #account {
+
+    padding: 15px;
+    background-color: #c8c7c7;
+    box-shadow: 10px 10px 5px grey;
+      margin: 20px;
+}
+
+.back{
+    background-color: lightblue;
+}
+
+.blink {
+      animation: blinker 0.6s linear infinite;
+      color: #1c87c9;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      .blink-one {
+      animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {  
+      0% { opacity: 0; }
+      }
+      .blink-two {
+      animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
